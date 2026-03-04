@@ -41,10 +41,29 @@
 }
 
 .nav__avatar {
-    position: fixed;
-    right: 20px;
+    margin-left: 10px;
     width: 30px;
     object-fit: contain;
     border-radius: 4px;
     cursor: pointer;
+}
+
+.nav__user {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.nav__login {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-right: 20px;
 }

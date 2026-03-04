@@ -1,0 +1,86 @@
+.auth {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('https://assets.nflxext.com/ffe/siteui/vlv3/f841d4c7-10e1-40af-bca1-0758328f777e/af6a3311-92e4-4da5-9856-787c3859d045/IN-en-20220502-popsignuptwilight-perspective_alpha_website_medium.jpg') center/cover no-repeat;
+    color: white;
+}
+
+.auth__container {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 60px 68px 40px;
+    width: 450px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.auth__container h1 {
+    font-size: 32px;
+    margin-bottom: 28px;
+}
+
+.auth__container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth__container input {
+    background-color: #333;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    height: 50px;
+    margin-bottom: 16px;
+    padding: 0 20px;
+    font-size: 16px;
+}
+
+.auth__container button {
+    background-color: #e50914;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    height: 48px;
+    margin: 24px 0 12px;
+}
+
+.auth__error {
+    color: #e87c03;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.auth__help {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #b3b3b3;
+}
+
+.auth__footer {
+    margin-top: 50px;
+    color: #737373;
+    font-size: 16px;
+}
+
+.auth__link {
+    color: white;
+    cursor: pointer;
+}
+
+.auth__link:hover {
+    text-decoration: underline;
+}
+
+.auth__container span {
+    cursor: pointer;
+    color: #b3b3b3;
+    font-size: 14px;
+    margin-top: 15px;
+}
